@@ -771,7 +771,7 @@ img{
 .sec-title .text{
 	position: relative;
     color: #ffffff;
-	opacity:0.5;
+	opacity:0.7;
 	font-size:16px;
     font-weight: 400;
     line-height: 1.6em;
@@ -881,6 +881,12 @@ img{
 	left:0px;
 	z-index:10;
 	padding:30px 0px;
+}
+.logo-box-1{
+	position:relative;
+	float:left;
+	padding-top: 20px;
+	width: 130px;
 }
 
 .main-header .main-box .logo-box .logo img{
@@ -2385,10 +2391,14 @@ body.visible-menu-bar .fullscreen-menu{
 
 .services-section{
 	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	align-self: center;
 }
 
 .services-section .service-block{
-	padding:0px;
+	padding:15px;
 	float:left;
 }
 
@@ -3008,9 +3018,9 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-bottom:80px;
 }
 
-.pricing-section.style-two{
+/* .pricing-section.style-two{
 	background-color:#000000;
-}
+} */
 
 .pricing-section.style-two:before{
 	display:none;
@@ -3024,6 +3034,7 @@ body.visible-menu-bar .fullscreen-menu{
 	right:0px;
 	bottom:0px;
 	background-color:rgba(13,13,13,0.90);
+	opacity: 0.6;
 }
 
 .price-block{
@@ -3035,11 +3046,11 @@ body.visible-menu-bar .fullscreen-menu{
 	position:absolute;
 	left:5px;
 	bottom:0px;
-	opacity:0.20;
+	opacity:0.70;
 	font-size:40px;
 	color: transparent;
 	transform:rotate(-90deg);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #ffffff;
 	font-family: 'MonumentExtended-Ultrabold';
 	text-transform:uppercase;
@@ -3049,7 +3060,7 @@ body.visible-menu-bar .fullscreen-menu{
 .pricing-section .price-block:nth-child(2) .side-text{
 	left:0px;
 	bottom:-3px;
-	transform-origin: 5% 0%;
+	transform-origin: 9% -25%;
 }
 
 .price-block .inner-box{
