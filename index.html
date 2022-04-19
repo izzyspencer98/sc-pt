@@ -21,6 +21,8 @@
 
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/af7f608a8b3acf51562de3c53/56f81aa2e76f25c54e9a37da2.js");</script>
 </head>
 
 <body class="hidden-bar-wrapper">
@@ -196,9 +198,7 @@
 		<div class="guide-download">
 			<div class="sec-title centered">
 				<h2 style="margin-top: 100px;"><span>DOWNLOAD MY<br></span> FREE GUIDES</h2>
-				<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
-					incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. <br> Risus
-					commodo viverra maecenas accumsan lacus vel facilisis</div>
+				<div class="text">Want to improve your lifestyle?<br> Get started by downloading my free guides for insight on what you might be doing wrong.</div>
 			</div>
 		</div>
 
@@ -431,8 +431,7 @@
 			<div class="auto-container">
 				<div class="sec-title centered">
 					<h2><span>Client</span><br>Transformations</h2>
-					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-						tempor incididunt ut labore et dolore magna aliqua</div>
+					<div class="text">Check out some of the incredible transformations achieved by my clients.</div>
 				</div>
 			</div>
 
@@ -851,8 +850,8 @@
 			<div class="auto-container">
 				<div class="sec-title centered">
 					<h2><span>WHAT MY</span><br>CLIENTS SAY</h2>
-					<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-						tempor incididunt ut labore et dolore magna aliqua</div>
+					<div class="text">Unsure about online coaching?<br> Don't just take my word for it,
+					read some feedback from SC-PT clients.</div>
 				</div>
 
 				<div class="testimonial-outer">
@@ -963,27 +962,28 @@
 				</div>
 
 				<!-- Default Form -->
-				<form method="post" action="contact.html">
+				<form id="contactform" method="POST" action="https://formsubmit.io/send/d41cea78-e7ee-4017-ab76-5cc9a5a93196">
 					<div class="row clearfix">
 
 						<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-							<input type="text" name="name" placeholder="Name" required>
+							<input type="text" name="name" id="name" placeholder="Name" required>
 						</div>
-
+						
 						<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-							<input type="email" name="email" placeholder="Email" required>
+							<input type="email" name="email" id="email" placeholder="Email" required>
 						</div>
 
 						<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-							<input type="text" name="subject" placeholder="Subject" required>
+							<input type="text" name="subject" id="subject" placeholder="Subject" required>
 						</div>
 
 						<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-							<textarea class="darma" name="message" placeholder="Your Message"></textarea>
+							<textarea class="darma" name="message" id="message" placeholder="Your Message" required></textarea>
 						</div>
 
 						<div class="form-group text-center col-lg-12 col-md-12 col-sm-12">
 							<span class="data">* Personal data will be encrypted</span>
+							<input name="_formsubmit_id" type="text" style="display:none">
 							<div class="btns-box">
 								<div class="theme-btn btn-style-one" type="submit" name="submit-form"><span
 									class="txt">SEND MESSAGE</span></div>
