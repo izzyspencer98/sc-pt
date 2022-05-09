@@ -202,26 +202,36 @@
 							<div class="form-text">If you want to make lifestyle changes but don't know where to
 								start, get in touch and I'll get back to you soon.</div>
 							<!-- Contact Form -->
-							<form method="post" action="sendemail.php" id="contact-form">
+							<form id="contactform" action="https://sc-pt.us18.list-manage.com/subscribe/post" method="POST">
+								<input type="hidden" name="u" value="af7f608a8b3acf51562de3c53">
+								<input type="hidden" name="id" value="bb62bfcff1">
 								<div class="row clearfix">
-									
+
 									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="text" name="username" placeholder="Name" required>
+										<input type="text" name="MERGE1" id="MERGE1" size="25" value="" placeholder="First Name"  required>
 									</div>
-									
+
 									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-										<input type="email" name="email" placeholder="Email" required>
+										<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email" required>
 									</div>
-									
+
 									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-										<textarea class="darma" name="message" placeholder="Your Message"></textarea>
+											<input type="text" name="MERGE6" id="MERGE6" size="25" value="" placeholder="Your Message" required>
 									</div>
-									
-									<div class="col-lg-12 clearfix col-md-12 col-sm-12 form-group">
-										<button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="txt">SEND MESSAGE</span></button>
+
+									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+										<div class="row ml-1" style="display: flex; align-items: center; ">
+										<input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="gdpr_76736" name="gdpr[76736]" value="Y" } class="av-checkbox" required>
+										<span style="margin-left: 5px; font-size: 10px;"> I agree to receive your emails and accept the data privacy statement.</span>
+									</div>
+									</div>
+									<input type="hidden" name="tags" value="2102312">
+
+									<div class="form-group text-center col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn btn-style-one" type="submit">Send Message</button>
 										<span class="data">* Personal data will be encrypted</span>
 									</div>
-									
+
 								</div>
 							</form>
 								

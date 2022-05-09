@@ -121,10 +121,12 @@ class MainFooter extends HTMLElement {
 										<div class="text">Stay up to date with the latest from SC-PT by signing up to the newsletter!</div>
 										<!-- Newsletter Form -->
 										<div class="newsletter-form">
-											<form method="post" action="contact.html">
+											<form action="https://sc-pt.us18.list-manage.com/subscribe/post" method="POST">
+											<input type="hidden" name="u" value="af7f608a8b3acf51562de3c53">
+   											<input type="hidden" name="id" value="bb62bfcff1">
 												<div class="form-group">
-													<input type="email" name="email" value="" placeholder="Email"
-														required="">
+													<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email" required>
+													<input type="hidden" name="tags" value="2102312">
 													<button type="submit" class="theme-btn submit-btn"><span><img
 																src="images/icons/message-icon.png"
 																alt="" /></span></button>
