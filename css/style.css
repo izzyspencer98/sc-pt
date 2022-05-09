@@ -364,7 +364,37 @@ img{
 	border-color:#fff;
 }
 
+.btn-style-one-inverse{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff !important;
+	cursor:pointer;
+	padding: 14px 46px;
+	font-weight: 600;
+	overflow: hidden;
+	border-radius:0px;
+	text-transform: uppercase;
+	border:2px solid #fff;
+	font-family: 'Poppins', sans-serif;
+	transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+	background-color: #000 !important;
+	opacity: 1;
+	border-color:#fff;
+}
+
 .btn-style-one .txt{
+	position:relative;
+	z-index:1;
+	
+}
+
+.btn-style-one-inverse .txt{
 	position:relative;
 	z-index:1;
 	
@@ -388,7 +418,31 @@ img{
     transform: scale(1, 0.5);
 }
 
+.btn-style-one-inverse:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transform: scale(1, 0.5);
+    transform: scale(1, 0.5);
+}
+
 .btn-style-one:hover::before{
+    opacity: 1;
+    transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+}
+
+.btn-style-one-inverse:hover::before{
     opacity: 1;
     transform: scale(1, 1);
 	-webkit-transform: scale(1, 1);
@@ -397,6 +451,12 @@ img{
 .btn-style-one:hover{
 	color: #fff !important;
 	background-color: #000 !important; 
+	opacity: 1;
+}
+
+.btn-style-one-inverse:hover{
+	color: #000 !important;
+	background-color: #fff !important; 
 	opacity: 1;
 }
 
